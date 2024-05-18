@@ -7,6 +7,7 @@ function [se,sd,en]=MAMSE(img,angV,scales,m,r)
 % are mean sample entropy over all image profiles.
 % This code was implemented by José Garcia Vivas Miranda on 01 May 2022.
 % Contact: vivas@ufba.br
+%Vs 1.1
 
 t = zeros(scales, 1);   % store the sample entropy values
 en=t;                   % store the mean sample entropy values
